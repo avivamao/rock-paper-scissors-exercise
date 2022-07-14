@@ -8,6 +8,7 @@
 
 ## Environment Setup
 
+You may play this game under base or virtual environment. Below is the guidacne to set up the virtual environment.
 Create a new project-specific Anaconda virtual environment:
 
 ```sh
