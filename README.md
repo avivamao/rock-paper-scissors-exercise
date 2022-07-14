@@ -44,3 +44,11 @@ The computer chose:'scissors'
 Sorry, the computer won..Try next time.
 Thanks for playing. Please play again!
 ```
+
+You will get an error message when your input is not correct. And the game will stop.
+
+```
+Welcome to the rock-papaer-scissors game!
+Please choose from 'rock', 'paper' or 'scissors':rocks
+Sorry, your choice is not correct. Please check the spelling and try again.
+```

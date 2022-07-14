@@ -13,7 +13,7 @@ player_choice = player_selection.lower()
 if player_choice in gamelist:
    print(f"You chose: '{player_choice}'") # if the choice is within the list, print out the choice
 else:
-    print("Sorry, your choice is not correct.")
+    print("Sorry, your choice is not correct. Please check the spelling and try again.")
     exit() # if the choice is not within the list, print the error message and exit the program
 
 # simulating Computer Selection
@@ -37,9 +37,11 @@ if com_choice == "scissors":
 
 if player_num == com_num:
     print("It's a tie!")
-elif com_num != 0 and player_num > com_num:
+elif player_num == 0 and com_num == 2:
     print ("Congratulations, you won!")
-elif com_num == 0 and player_num == 1 :
+elif player_num == 1 and com_num == 0:
+    print ("Congratulations, you won!")
+elif player_num == 2 and com_num == 1:
     print ("Congratulations, you won!")
 else:
     print ("Sorry, the computer won..Try next time.")
